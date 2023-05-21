@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+            console.log('internal js bu şekilde yazilir ama headde cok tercih edilmez')
+    </script>
+    
+    <title>js'i sayfaya ekleme türleri</title>
+</head>
+<body>
+    <button onclick="alert('inline js bu şekilde yazilir')">
+            Click me
+    </button>
+
+   <!--  inline js bu şekilde yazılır -->
+
+       <!-- istersek bu şekilde de body içersine yazabilirz , body veya heade internal js yazılabilir 
+            ama body e yazılması daha mantıklıdır, sayfa acılırken headden içerik çeker eger heade yazarsak
+            sayfa açılırken geciklmeler oluşabilir
+    
+    -->
+   <script>
+    console.log('internal js bu şekilde yazilir ama body de')
+   </script>
+
+  <!--  external yani uzaktan js çağırma da bu şekilde olur tıpkı cssdeki gibi GENELDE BU TERCİH EDİLİR VE BODY e yazılır.-->
+   <script src="script.js" ></script>
+
+   <!-- ayn anda birden çok js dosyası sayfaya verilebilir -->
+   <script src="hello.js"></script>
+
+</body>
+</html>
