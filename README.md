@@ -1,0 +1,2 @@
+# 1aydaJsNotlarim
+prototurk + bilgisayargenetigi
