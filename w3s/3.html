@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+</head>
+<body>
+    <!-- elementte işlem görüntüle -->
+    <p id="islem"></p>
+
+    <script>
+        document.getElementById('islem').innerHTML=5 + 6;
+    </script>
+
+    <!-- sayfaya yazma test için kullan zararlı kod bu-->
+    <script>
+        document.write(5+89)
+    </script>
+    <br><br>
+    <!-- document write tüm kodu siler  tıklarsan tüm html kodu gider-->
+    <button onclick="document.write(5+78)" >try it</button>
+
+   <!--  <script>
+            window.alert('popup acma');
+        </script>
+
+         <script>
+            alert('popup acma');  //window koymak isteğe bağlıdır
+        </script>
+ -->
+
+
+    <!-- consolda çıktı alma -->
+    <script>
+        console.log(5+6);
+    </script>
+
+    <!--js ile sayfa çıktı alma -->
+    <br><br>
+    <button onclick="window.print()">bu sayfanın yazıcıda çıktısı almak için tıklayınz</button>
+
+
+</body>
+</html>

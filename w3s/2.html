@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+
+    <script>
+        function benimOzellik() {  //function ile kendi özelliğini oluştur.
+                document.getElementById('degisecek').innerHTML="değişti";
+        }
+    </script>
+
+</head>
+<body>
+    <!-- 1-) yazdirma -->
+    <p id="pg"></p>
+
+    <script>
+        document.getElementById('pg').innerHTML = 'selamlar bu benim ilk dışardan js eklememdir tşkler.';
+    </script>
+
+    <!-- 2-) dışardan değiştirme -->
+    <p id="degisecek">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, unde!</p>
+    <button onclick="benimOzellik()">buraya tıklarsan yukarısı değşecek</button> <!-- bu şekilde ekle -->
+
+    <!-- bodyede yazarsan olur maksadı o -->
+    <script>
+        function benimOzellik() {  //function ile kendi özelliğini oluştur.
+                document.getElementById('degisecek').innerHTML="değişti2";
+        }
+    </script>
+
+    <!-- uzaktan svden js verme -->
+    <script src="https://www.w3schools.com/js/myScript.js"></script> 
+    <script src="/js/myScript.js"></script> 
+
+</body>
+</html>

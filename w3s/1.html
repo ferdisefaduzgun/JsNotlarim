@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1</title>
+  </head>
+  <body>
+
+    <!-- element içeriği değişme -->
+
+    <button
+      id="degis"
+      onclick='document.getElementById("degis").innerHTML = "bu şekilde değişir" '
+    >
+      Javascript elementlerin içindeki yazıları değişebilir
+    </button>
+
+    <!-- my example -->
+    <button onclick='document.getElementById("degis").innerHTML = "tekrar değiş"'>soldakini tekrar değiş</button>
+
+    <br /><br /><br /><br /><br />
+
+    <!-- resim içeriği değişme -->
+
+    <button
+      onclick='document.getElementById("src-degis").src="img/pic_bulbon.gif"'
+    >
+      Işıkları yak
+    </button>
+
+    <img src="img/pic_bulboff.gif" id="src-degis" />
+
+    <button
+      onclick='document.getElementById("src-degis").src="img/pic_bulboff.gif"'
+    >
+      Işıkları kapat
+    </button>
+
+    <!-- fontsize değişme -->
+
+    <p id="font-size-degis" style="font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, perspiciatis.</p>
+    <button onclick="document.getElementById('font-size-degis').style.fontSize = '10px' " >bu butona basarsan font size değişir</button>
+
+
+    <!-- display değişme -->
+    <p id="display-degis">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus, suscipit.</p>
+    <button onclick="document.getElementById('display-degis').style.display='none'">Display değişmek için tıkla</button>
+
+
+  </body>
+</html>
