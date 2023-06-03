@@ -1,6 +1,6 @@
 # 1aydaJsNotlarim
 
-let prototurk, bilgisayarGenetigi,w3schools;
+let prototurk, bilgisayarGenetigi, w3schools;
 
 let jsOgreniyorum = prototurk + bilgisayarGenetigi + w3school;
 
