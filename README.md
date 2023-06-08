@@ -1,4 +1,4 @@
-# 1aydaJsNotlarim
+# JsNotlarim
 
 let prototurk, bilgisayarGenetigi, w3schools;
 
